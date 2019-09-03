@@ -37,7 +37,7 @@ def remove_punctuation(word):
 # Corpus taken from http://wortschatz.uni-leipzig.de/en/download/
 	
 def generate_idf():
-	# Directory that contains all news articles
+	# Directory that contains all articles
 	mypath = 'corpus'
 	# This dictionary stores the number of documents a unique word appears in
 	words  = {}
